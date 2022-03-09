@@ -213,6 +213,7 @@ module ColorMeShop
       query_params[:'mobile'] = opts[:'mobile'] if !opts[:'mobile'].nil?
       query_params[:'paid'] = opts[:'paid'] if !opts[:'paid'].nil?
       query_params[:'delivered'] = opts[:'delivered'] if !opts[:'delivered'].nil?
+      query_params[:'canceled'] = opts[:'canceled'] if !opts[:'canceled'].nil?
       query_params[:'payment_ids'] = opts[:'payment_ids'] if !opts[:'payment_ids'].nil?
       query_params[:'fields'] = opts[:'fields'] if !opts[:'fields'].nil?
       query_params[:'limit'] = opts[:'limit'] if !opts[:'limit'].nil?
